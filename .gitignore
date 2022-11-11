@@ -1,0 +1,8 @@
+#忽略css文件夹
+css/
+
+#忽略test文件夹
+# test/
+
+#忽略test文件夹下的.js文件
+test/*.js
