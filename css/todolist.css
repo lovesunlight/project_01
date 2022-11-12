@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 46px;
+    background-color: black;
+}
+.header-content{
+    width: 600px;
+    height: 46px;
+}
+.header-content h1{
+    line-height: 46px;
+    color: antiquewhite;
+    float: left;
+}
+.header-content input{
+    width: 300px;
+    height: 24px;
+    margin-top: 11px;
+    float: right;
+    border-radius: 6px;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.main-content{
+    width: 600px;
+}
+.main-content h2{
+
+    width: 600px;
+    
+}
+.main-content h2 span{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+.main-content ul,ol{
+    margin: 10px 0 10px 0;
+}
+.main-content li{
+    position: relative;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(136, 136, 220);
+    margin-bottom: 10px;
+}
+.main-content li span{
+    float: left;
+}
+.main-content li p{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 30px;
+    line-height: 30px;
+}
+.main-content li input{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.main-content li a{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+}
+a:hover{
+    background-color: aqua;
+}
+#test{
+    width: 200px;
+    height: 200px;
+}
